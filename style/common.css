@@ -1,0 +1,44 @@
+body,ul,ol,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,for,input{
+    padding:0;
+    margin:0;
+}
+li{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+    color:#B6B6B6;
+}
+a:hover{
+    color:#CA151D;
+}
+body{
+    height: 8000px;
+    font-family: "Helvettica Neue",Helvetica,Arial,"Microsoft Yahei",
+    "Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+/*包裹块*/
+#wrapper{
+    width: 100%;
+    overflow-x:hidden;
+    min-width:1200px;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.m-w{
+    width: 1200px;
+    margin: auto;
+}
+/*清除浮动*/
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+img{
+    vertical-align: middle;
+}
